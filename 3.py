@@ -19,6 +19,6 @@ plt.xlabel('Negara')
 plt.ylabel('Gross National Product (US$)')
 
 for i, j in enumerate(df['GNP']):
-    plt.text(i-.25, j, str(j), color='black')
+    plt.text(i-0.3, j, str(j), color='black', fontsize=10)
 
 plt.show()

@@ -19,6 +19,6 @@ plt.xlabel('Negara')
 plt.ylabel('Populasi (x100 juta jiwa)')
 
 for i, j in enumerate(df['Population']):
-    plt.text(i-.3, j, str(j), color='black')
+    plt.text(i-.35, j, str(j), color='black', fontsize=10)
 
 plt.show()
